@@ -1,0 +1,308 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+}
+.box > .curve {
+  width: 500px;
+  height: 500px;
+  border: 3px solid red;
+  background-color: red;
+  transform-style: preserve-3d;
+  transform: rotateX(0deg) rotateY(109deg) rotateZ(93deg);
+}
+.box > .curve h1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  transform-origin: top;
+  transform: rotateX(36deg) rotateY(164deg) rotateZ(97deg);
+  position: absolute;
+  z-index: 1000;
+  top: 640px;
+  left: 0;
+  color: red;
+}
+.box > .curve h1 > span {
+  width: 100%;
+  text-align: end;
+}
+.box > .curve div {
+  width: 50px;
+  height: 100%;
+  transform: translateX(100%);
+  transform-origin: left;
+  background-color: antiquewhite;
+  transform-style: preserve-3d;
+  background-image: url(./img/عکس-سردار-سلیمانی-برای-پروفایل-95.jpg);
+  background-size: auto 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 3s;
+}
+.box > .curve > div:nth-of-type(2) {
+  margin: 5px;
+  z-index: -1;
+}
+.box > .curve > div:nth-of-type(3) {
+  margin: 10px;
+  z-index: -13;
+}
+.box > .curve > div:nth-of-type(4) {
+  margin: 20px;
+  z-index: -16;
+}
+.box > .curve > div:nth-of-type(1) {
+  transform: translateX(99%) rotateY(26deg);
+}
+.box > .curve > div:nth-of-type(1) > div {
+  transform: translateX(98%) rotateY(28deg);
+  transition: 0.1s;
+  background-position: -50px;
+}
+.box > .curve > div:nth-of-type(1) > div > div {
+  transform: translateX(97%) rotateY(30deg);
+  transition: 0.4s;
+  background-position: -100px;
+}
+.box > .curve > div:nth-of-type(1) > div > div > div {
+  transform: translateX(96%) rotateY(32deg);
+  transition: 0.8s;
+  background-position: -150px;
+}
+.box > .curve > div:nth-of-type(1) > div > div > div > div {
+  transform: translateX(95%) rotateY(34deg);
+  transition: 1s;
+  background-position: -200px;
+}
+.box > .curve > div:nth-of-type(1) > div > div > div > div > div {
+  transform: translateX(94%) rotateY(36deg);
+  transition: 2s;
+  background-position: -250px;
+}
+.box > .curve > div:nth-of-type(1) > div > div > div > div > div > div {
+  transform: translateX(93%) rotateY(38deg);
+  transition: 3s;
+  background-position: -300px;
+}
+.box > .curve > div:nth-of-type(1) > div > div > div > div > div > div > div {
+  transform: translateX(92%) rotateY(40deg);
+  transition: 4s;
+  background-position: -350px;
+}
+.box > .curve > div:nth-of-type(1) > div > div > div > div > div > div > div > div {
+  transform: translateX(91%) rotateY(42deg);
+  transition: 5s;
+  background-position: -400px;
+}
+.box > .curve > div:nth-of-type(1) > div > div > div > div > div > div > div > div > div {
+  transform: translateX(90%) rotateY(44deg);
+  transition: 6s;
+  background-position: -450px;
+}
+.box > .curve > div:nth-of-type(1) > div > div > div > div > div > div > div > div > div > div {
+  transform: translateX(89%) rotateY(46deg);
+  transition: 7s;
+  background-position: -500px;
+}
+.box > .curve > div:nth-of-type(2) {
+  transform: translateX(99%) rotateY(24deg);
+}
+.box > .curve > div:nth-of-type(2) > div {
+  transform: translateX(98%) rotateY(26deg);
+  transition: 0.1s;
+  background-position: -50px;
+}
+.box > .curve > div:nth-of-type(2) > div > div {
+  transform: translateX(97%) rotateY(28deg);
+  transition: 0.4s;
+  background-position: -100px;
+}
+.box > .curve > div:nth-of-type(2) > div > div > div {
+  transform: translateX(96%) rotateY(30deg);
+  transition: 0.8s;
+  background-position: -150px;
+}
+.box > .curve > div:nth-of-type(2) > div > div > div > div {
+  transform: translateX(95%) rotateY(32deg);
+  transition: 1s;
+  background-position: -200px;
+}
+.box > .curve > div:nth-of-type(2) > div > div > div > div > div {
+  transform: translateX(94%) rotateY(34deg);
+  transition: 2s;
+  background-position: -250px;
+}
+.box > .curve > div:nth-of-type(2) > div > div > div > div > div > div {
+  transform: translateX(93%) rotateY(36deg);
+  transition: 3s;
+  background-position: -300px;
+}
+.box > .curve > div:nth-of-type(2) > div > div > div > div > div > div > div {
+  transform: translateX(92%) rotateY(38deg);
+  transition: 4s;
+  background-position: -350px;
+}
+.box > .curve > div:nth-of-type(2) > div > div > div > div > div > div > div > div {
+  transform: translateX(91%) rotateY(40deg);
+  transition: 5s;
+  background-position: -400px;
+}
+.box > .curve > div:nth-of-type(2) > div > div > div > div > div > div > div > div > div {
+  transform: translateX(90%) rotateY(42deg);
+  transition: 6s;
+  background-position: -450px;
+}
+.box > .curve > div:nth-of-type(2) > div > div > div > div > div > div > div > div > div > div {
+  transform: translateX(89%) rotateY(44deg);
+  transition: 7s;
+  background-position: -500px;
+}
+.box > .curve > div:nth-of-type(3) {
+  transform: translateX(99%) rotateY(22deg);
+}
+.box > .curve > div:nth-of-type(3) > div {
+  transform: translateX(98%) rotateY(24deg);
+  transition: 0.1s;
+  background-position: -50px;
+}
+.box > .curve > div:nth-of-type(3) > div > div {
+  transform: translateX(97%) rotateY(26deg);
+  transition: 0.4s;
+  background-position: -100px;
+}
+.box > .curve > div:nth-of-type(3) > div > div > div {
+  transform: translateX(96%) rotateY(28deg);
+  transition: 0.8s;
+  background-position: -150px;
+}
+.box > .curve > div:nth-of-type(3) > div > div > div > div {
+  transform: translateX(95%) rotateY(30deg);
+  transition: 1s;
+  background-position: -200px;
+}
+.box > .curve > div:nth-of-type(3) > div > div > div > div > div {
+  transform: translateX(94%) rotateY(32deg);
+  transition: 2s;
+  background-position: -250px;
+}
+.box > .curve > div:nth-of-type(3) > div > div > div > div > div > div {
+  transform: translateX(93%) rotateY(34deg);
+  transition: 3s;
+  background-position: -300px;
+}
+.box > .curve > div:nth-of-type(3) > div > div > div > div > div > div > div {
+  transform: translateX(92%) rotateY(36deg);
+  transition: 4s;
+  background-position: -350px;
+}
+.box > .curve > div:nth-of-type(3) > div > div > div > div > div > div > div > div {
+  transform: translateX(91%) rotateY(38deg);
+  transition: 5s;
+  background-position: -400px;
+}
+.box > .curve > div:nth-of-type(3) > div > div > div > div > div > div > div > div > div {
+  transform: translateX(90%) rotateY(40deg);
+  transition: 6s;
+  background-position: -450px;
+}
+.box > .curve > div:nth-of-type(3) > div > div > div > div > div > div > div > div > div > div {
+  transform: translateX(89%) rotateY(42deg);
+  transition: 7s;
+  background-position: -500px;
+}
+.box > .curve > div:nth-of-type(4) {
+  transform: translateX(99%) rotateY(18deg);
+}
+.box > .curve > div:nth-of-type(4) > div {
+  transform: translateX(98%) rotateY(20deg);
+  transition: 0.1s;
+  background-position: -50px;
+}
+.box > .curve > div:nth-of-type(4) > div > div {
+  transform: translateX(97%) rotateY(22deg);
+  transition: 0.4s;
+  background-position: -100px;
+}
+.box > .curve > div:nth-of-type(4) > div > div > div {
+  transform: translateX(96%) rotateY(24deg);
+  transition: 0.8s;
+  background-position: -150px;
+}
+.box > .curve > div:nth-of-type(4) > div > div > div > div {
+  transform: translateX(95%) rotateY(26deg);
+  transition: 1s;
+  background-position: -200px;
+}
+.box > .curve > div:nth-of-type(4) > div > div > div > div > div {
+  transform: translateX(94%) rotateY(28deg);
+  transition: 2s;
+  background-position: -250px;
+}
+.box > .curve > div:nth-of-type(4) > div > div > div > div > div > div {
+  transform: translateX(93%) rotateY(30deg);
+  transition: 3s;
+  background-position: -300px;
+}
+.box > .curve > div:nth-of-type(4) > div > div > div > div > div > div > div {
+  transform: translateX(92%) rotateY(22deg);
+  transition: 4s;
+  background-position: -350px;
+}
+.box > .curve > div:nth-of-type(4) > div > div > div > div > div > div > div > div {
+  transform: translateX(91%) rotateY(18deg);
+  transition: 5s;
+  background-position: -400px;
+}
+.box > .curve > div:nth-of-type(4) > div > div > div > div > div > div > div > div > div {
+  transform: translateX(90%) rotateY(10deg);
+  transition: 6s;
+  background-position: -450px;
+}
+.box > .curve > div:nth-of-type(4) > div > div > div > div > div > div > div > div > div > div {
+  transform: translateX(89%) rotateY(48deg);
+  transition: 7s;
+  background-position: -500px;
+}
+.box > .curve:hover > div {
+  transform: translateX(99%) rotateY(0deg);
+}
+.box > .curve:hover > div > div {
+  transform: translateX(98%) rotateY(0deg);
+}
+.box > .curve:hover > div > div > div {
+  transform: translateX(97%) rotateY(0deg);
+}
+.box > .curve:hover > div > div > div > div {
+  transform: translateX(96%) rotateY(0deg);
+}
+.box > .curve:hover > div > div > div > div > div {
+  transform: translateX(95%) rotateY(0deg);
+}
+.box > .curve:hover > div > div > div > div > div > div {
+  transform: translateX(94%) rotateY(0deg);
+}
+.box > .curve:hover > div > div > div > div > div > div > div {
+  transform: translateX(93%) rotateY(0deg);
+}
+.box > .curve:hover > div > div > div > div > div > div > div > div {
+  transform: translateX(92%) rotateY(0deg);
+}
+.box > .curve:hover > div > div > div > div > div > div > div > div > div {
+  transform: translateX(91%) rotateY(0deg);
+}
+.box > .curve:hover > div > div > div > div > div > div > div > div > div > div {
+  transform: translateX(90%) rotateY(0deg);
+}/*# sourceMappingURL=style.css.map */
